@@ -5,75 +5,55 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CleanHome</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      width: 85%;
-      margin: 0 auto;
-      overflow: hidden;
-    }
-  </style>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style/index.css">
 </head>
 
 <body>
   <!-- Navigasi -->
-  <header style="background-color: lightskyblue; width: 100%; height: 15vh;">
-    <nav class="container" style="display: flex; height: 15vh; justify-content: space-between; align-items: center;">
-      <div class="logo" style="font-size: 1.5rem; font-weight: bold;">CleanHome</div>
-      <ul class="navigasi-btn" style="display: flex; list-style: none;">
-        <li style="margin-left: 24px;"><a href="#"
-            style="color: black; text-decoration: none; font-weight: bold;">Beranda</a></li>
-        <li style=" margin-left: 24px;"><a href="tentang.html"
-            style="color: black; text-decoration: none; font-weight: bold">Tentang Kami</a></li>
-        <li style="margin-left: 24px;"><a href="layanan.html"
-            style="color: black; text-decoration: none; font-weight: bold">Layanan</a></li>
-        <li style="margin-left: 24px;"><a href="masuk.html"
-            style="color: black; text-decoration: none; font-weight: bold;">Masuk</a></li>
+  <header>
+    <nav class="hcontainer">
+      <div class="logo"><img class="logoimg" src="images/clean-home-logo.png" alt="Logo CleanHome"></div>
+      <ul class="navigasi-btn">
+        <li><a href="#" style="color: red;">Beranda</a></li>
+        <li><a href="tentang.html">Tentang Kami</a></li>
+        <li><a href="layanan.html">Layanan</a></li>
+        <li><a href="masuk.html">Masuk</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Konten -->
-  <main style="height: 75vh; padding-top: 20px;">
-    <div class="text" style="font-size: 20px; font-weight: bold; text-align: center;">
+  <main>
+    <div class="mtext1">
       <h1>Jasa Kebersihan No. 1<br>di Surabaya</h1>
     </div>
 
-    <div class="text1" style="font-size: 18px; text-align: center; margin-top: 15px;">
+    <div class="mtext2">
       <p>dengan CleanHome rumah bersih seketika</p>
     </div>
 
-    <div class="text2" style="font-size: 16px; font-weight: bold; text-align: center; margin-top: 25px;">
+    <div class="mtext1">
       <h1>Layanan Kebersihan CleanHome</h1>
     </div>
 
-    <div class="text3" style="font-size: 18px; text-align: center; margin: auto; margin-top: 20px;">
+    <div class="mtext2">
       <p>Pilih layanan jasa cleaning terlengkap yang sesuai dengan kebutuhan hunian Anda</p>
     </div>
 
-    <div class="block"
-      style="display: flex; width: 45%; height: 40%; margin: auto; justify-content: space-between; margin-top: 20px;">
-      <div class="kotak1" style="border: 2px solid black; width: 30%; height: 100%; border-radius: 4px;"><img src=""
-          alt="General Cleaning">
+    <div class="lcontainer">
+      <div class="lkotak"><img class="limg" src="images/general-cleaning-img.png" alt="General Cleaning">
       </div>
-      <div class="kotak2"
-        style="border: 2px solid black; width: 30%; height: 100%; border-radius: 4px;""><img src="" alt=" AC Cleaning">
+      <div class="lkotak"><img class="limg" src="images/ac-cleaning-img.png" alt=" AC Cleaning">
       </div>
-      <div class=" kotak3" style="border: 2px solid black; width: 30%; height: 100%; border-radius: 4px;"><img src=""
-          alt="Deep Cleaning">
+      <div class="lkotak"><img class="limg" src="images/deep-cleaning-img.png" alt="Deep Cleaning">
       </div>
     </div>
   </main>
 
   <!-- Footer -->
-  <footer
-    style="background-color: lightskyblue; width: 100%; height: 10vh; display: flex; align-items: center; justify-content: center;">
-    <div class="kata" style="font-weight: bold; font-size: 24px;">© 2024 All Rights Reserved. CleanHome</div>
+  <footer>
+    <div class="ftext">© 2024 All Rights Reserved. CleanHome</div>
   </footer>
 </body>
 
